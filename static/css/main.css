@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+#header nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#main_nav {
+
+}
+
+#main_nav a {
+    display: inline-block;
+    padding: 14px;
+    text-decoration: none;
+    color: #000000;
+}
+
+#main_nav a:hover {
+    border-bottom: 3px solid green;
+}
+
+#main_nav a.active {
+    color: green;
+    border-bottom: 3px solid green;
+}
+
+#banner {
+    height: 70vh;
+    background-image: url('../img/cover.jpg');
+    background-size: cover;
+    position: relative;
+}
+
+#banner .message {
+    display: block;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: -2px;
+    color: #fff;
+    text-shadow: 2px 3px 5px #333, 2px 3px 5px #333;
+}
